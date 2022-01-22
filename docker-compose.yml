@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: matheusafonsouza/k8s_server
     ports:
       - "80:80"
     restart: unless-stopped
